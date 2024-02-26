@@ -61,7 +61,7 @@ class AvelonOrderProcessedObserver implements ObserverInterface
                         //'item_metadata' => $item->getData()
                     ];
                     if(!empty($categories)) {
-                        $products['item_category'] = implode(', ', $categories);
+                        $product['item_category'] = implode(', ', $categories);
                     }
                     $products[] = $product;
                 }
