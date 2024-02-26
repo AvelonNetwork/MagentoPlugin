@@ -57,10 +57,12 @@ class AvelonOrderProcessedObserver implements ObserverInterface
                         'item_currency' => $currency,
                         'item_id' => $item->getProductId(),
                         'item_name' => $item->getName(),
-                        'item_category' => implode(', ', $categories),
                         'item_quantity' => $item->getQtyOrdered()
                         //'item_metadata' => $item->getData()
                     ];
+                    if(!empty($categories)) {
+                        $products['item_category'] = implode(', ', $categories);
+                    }
                     $products[] = $product;
                 }
 
