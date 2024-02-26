@@ -1,0 +1,22 @@
+<?php
+    $settingsData = $block->getSettingsData();
+?>
+<div class="admin__scope-old">
+    <form action="<?php echo $block->getUrl('avelonnetwork/settings/save'); ?>" method="post" id="avelon-settings-form">
+        <div class="entry-edit form-inline">
+            <fieldset class="fieldset admin__fieldset " id="avelon_fieldset">
+                <div class="admin__field field">
+                    <label class="label admin__field-label" for="avelon_account_id">Avelon Account ID:</label>
+                    <input class=" input-text admin__control-text type="text" id="avelon_account_id" name="avelon_account_id" value="<?php echo $block->escapeHtml($settingsData['avelon_account_id'] ?? ''); ?>">
+                </div>
+                <div class="admin__field field">
+                    <label class="label admin__field-label" for="avelon_api_token">Avelon API Token:</label>
+                    <input class=" input-text admin__control-text type="text" id="avelon_api_token" name="avelon_api_token" value="<?php echo $block->escapeHtml($settingsData['avelon_api_token'] ?? ''); ?>">
+                </div>
+                <button type="submit">Save</button>
+                <input type="hidden" name="return_url" value="<?php echo $block->escapeUrl($block->getUrl('*/*/*', ['_current' => true, '_use_rewrite' => true])); ?>">
+                <input name="form_key" type="hidden" value="<?php echo $block->getFormKey(); ?>" />
+            </fieldset>
+        </div>    
+    </form>
+</div>
