@@ -10,7 +10,7 @@
  * @package    Avelon_AvelonNetwork
  * @author     Avelon
  * @copyright  Copyright (c) Avelon Network ( https://avelonetwork.com/ )
- * @license    https://avelonetwork.com/
+ * @license    https://avelonetwork.com/magento-x-avelon-terms-of-use/
  */
 namespace Avelon\AvelonNetwork\Controller\Adminhtml\Settings;
 
