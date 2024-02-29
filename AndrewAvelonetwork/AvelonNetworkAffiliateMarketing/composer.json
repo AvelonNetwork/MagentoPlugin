@@ -1,5 +1,5 @@
 {
-    "name": "andrew-avelonetwork-com/avelon-network-affiliate-marketing",
+    "name": "avelon/avelon-network-affiliate-marketing",
     "description": "A custom Magento 2 module for Avelon Network Affiliate Marketing",
     "type": "magento2-module",
     "version": "1.0.0",
@@ -8,10 +8,10 @@
             "registration.php"
         ],
         "psr-4": {
-            "Avelon\\AvelonNetwork\\": ""
+            "AndrewAvelonetwork\\AvelonNetworkAffiliateMarketing\\": ""
         }
     },
     "require": {
-        "php": "~7.0.13||~7.1.0||~7.2.0||~7.3.0||~7.4.0"
+        "php": "~7.0.13||~7.1.0||~7.2.0||~7.3.0||~7.4.0||~8.2.0||~8.2.0||~8.2.1||~8.2.2||~8.2.3"
     }
 }

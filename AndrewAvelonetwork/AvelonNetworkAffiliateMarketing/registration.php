@@ -5,7 +5,7 @@
  *
  * @category   Avelon
  * @package    AndrewAvelonetwork_AvelonNetworkAffiliateMarketing
- * @author     pixable
+ * @author     Avelon
  * @copyright  Copyright (c) Avelon Network Ltd ( https://avelonetwork.com/ )
  */
 \Magento\Framework\Component\ComponentRegistrar::register(
