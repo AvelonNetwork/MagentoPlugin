@@ -44,7 +44,7 @@ class Index extends \Magento\Backend\App\Action
     {
         $resultPage = $this->resultPageFactory->create();
         $resultPage->setActiveMenu('Avelon_AvelonNetwork::menu');
-        $resultPage->getConfig()->getTitle()->prepend(__('Demo Menu'));
+        $resultPage->getConfig()->getTitle()->prepend(__('Avelon Settings'));
         return $resultPage;
     }
 
