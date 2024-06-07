@@ -2,7 +2,7 @@
     "name": "avelon/avelon-network-affiliate-marketing",
     "description": "A custom Magento 2 module for Avelon Network Affiliate Marketing",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "autoload": {
         "files": [
             "registration.php"
